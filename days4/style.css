@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.slidShow__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: coral;
+    
+
+}
+.slidShow__elements{
+
+}
+.slidShow__element{
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%,-50%) scale(0);
+    transition: transform 0.5s;
+
+
+}
+.slidShow__element i,p{
+    font-size: 10rem;
+    color: rgb(161, 61, 61);
+
+}
+ .current{
+    transform: translate(-50%,-50%) scale(1);
+    transition: transform 0.5s;
+
+}
